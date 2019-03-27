@@ -1,0 +1,697 @@
+/* --------------- Start Global --------------- */
+body,h1,h2,h3,h4,a,li,span{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: #919191;
+}
+h1,h2,h3,a,span{
+    color: #566366;
+    text-transform: uppercase;
+}
+.brush{
+    color: #2ecc71;
+}
+.container{
+    max-width: 1200px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* --------------- Start Global --------------- */
+
+/* --------------- Start home --------------- */
+/* ---- Navigation Bar ----*/
+header{
+    margin: 0;
+    padding: 0;
+    background: url("../images/header_background.jpg"), rgba(0,0,0,0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 92vh;
+    text-align: center;
+}
+header .slider div h1{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 4em;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+    
+}
+header .slider div a{
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+}
+header .slider div a:hover{
+    text-decoration: none;
+    color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.bx-wrapper {
+    background:none;
+    box-shadow:none;
+    border:0;
+    margin: 0 auto;
+    height: 85vh;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: none;
+    border: 2px solid #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background-color:#fff;
+}
+
+/* ---- Navigation Bar ----*/
+.mylogo{
+    display: inline-block;
+    color: #fff;
+    background-color: #4b5456;
+    padding: 2px 7px 2px 7px;
+    margin-right: 10px;   
+}
+.navbar-inverse{
+     background-color: #252e30;
+     border-radius: 0;
+     margin: 0;
+     border: 0;
+}
+.navbar-inverse .navbar-brand{color: #fff;}
+.navbar-inverse .navbar-nav>li>a{color: #fff;}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand:hover{color: #2ecc71;}
+
+.mylogo{
+    display: inline-block;
+    color: #fff;
+    background-color: #4b5456;
+    padding: 2px 7px 2px 7px;
+    margin-right: 10px;   
+}
+/*navbar Affix & ScrollSpy Styles*/
+body{
+    position: relative;
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+      opacity: 0.85;
+  }
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #2ecc71;
+    background-color: inherit;
+}
+
+/*Extra Setup for Navbar*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .navbar-brand{
+        padding: 12px 10px; 
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .mylogo{
+        margin-right: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .navbar a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+/* ---- My Character ----*/
+
+.mychar h3{
+    margin-top: 50px;
+}
+.mychar p{
+    font-size: 13px;
+    line-height: 1.8em;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+/* --------------- end home --------------- */
+
+/* --------------- Start About --------------- */
+#about{
+    background: #f2f2f1;
+    overflow: auto;
+    margin-top: 30px;
+}
+#about .pimgy img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+#about h2{
+    margin: 40px 0 20px 40px;
+    font-weight: bold;
+}
+#about .speach p{
+    font-size: 13px;
+    margin: 0 0 20px 40px;
+    line-height: 1.8em;
+}
+#about .speach p:last-child{margin-bottom: 40px;}
+#about .power{
+    padding: 0 15px 25px 50px;
+}
+#about .power i{
+    float: left;
+    color: #2ecc71;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    
+}
+#about .power .info h3{
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#about .power .info p{
+    font-size: 13px;
+    line-height: 1.8em;
+}
+/* --------------- End About --------------- */
+
+/* --------------- Start Skills --------------- */
+#skills .container{padding-bottom: 80px;}
+#skills h2{
+    margin: 80px 0 30px 0;
+    font-weight: bold;
+}
+#skills p{
+    font-size: 13px;
+    margin: 0 0 30px 0;
+    line-height: 2em;
+    padding-right: 80px;
+}
+
+#skills a{
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #2ecc71;
+    padding: 10px 30px;
+    color: #2ecc71;
+}
+#skills a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color:#2ecc71;
+}
+#skills .row .prog{
+    padding-top: 90px;
+}
+#skills  h3{
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#skills .progress{border-radius: 0;}
+#skills .progress-bar {background-color: #2ecc71;}
+
+/*Extra Setup for Skills*/
+@media only screen and (max-width: 768px){
+   #skills .fixMe{
+        text-align: center;
+    }
+   #skills .fixMe p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* --------------- end Skills --------------- */
+
+/* --------------- Start resume --------------- */
+#resume{
+    background-color: #f2f2f1;
+    text-align: center; 
+}
+#resume h2{
+    margin: 100px 0 30px 0;
+    font-weight: bold;
+}
+#resume p{
+    font-size: 13px;
+    margin: 0 0 50px 0;
+    line-height: 2em;
+}
+
+#resume a{
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #2ecc71;
+    padding: 10px 30px;
+    color: #2ecc71;
+    margin-bottom: 100px;
+}
+#resume a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color:#2ecc71;
+}
+/* --------------- End resume --------------- */
+
+/* --------------- Start Education & Work --------------- */
+#education{ margin-bottom: 80px;}
+#education h2{
+    margin: 80px 0 30px 0;
+    font-weight: bold;
+}
+#education h2~p{
+    font-size: 13px;
+    margin: 0 80px 30px 0;
+    line-height: 2em;
+}
+#education .addon {margin-top: 145px;}
+#education .addon h3{
+    margin: 0px 0 5px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#education .addon p:first-of-type {
+    text-transform: capitalize;
+    margin-bottom: 0;
+    border: 0;
+    padding-top: 0;
+    margin-top: 0px;
+}
+
+#education .addon span{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #2ecc71;
+    font-size: 13px;
+}
+
+#education .addon p{
+    border-top: 1px solid #e1e1e1 ;
+    font-size: 13px;
+    line-height: 2em;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#education .addedit{margin-top: 60px;}
+
+/*Extra Setup for education*/
+@media only screen and (max-width: 768px){
+   #education .fixMe{
+        text-align: center;
+    }
+   #education .fixMe p{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+}
+
+/*Work*/
+#work{ margin-bottom: 80px;}
+#work h2{
+    margin: 80px 0 30px 0;
+    font-weight: bold;
+}
+#work h2~p{
+    font-size: 13px;
+    margin: 0 80px 30px 0;
+    line-height: 2em;
+}
+#work .addon {margin-top: 145px;}
+#work .addon h3{
+    margin: 0px 0 5px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#work .addon p:first-of-type {
+    text-transform: capitalize;
+    margin-bottom: 0;
+    border: 0;
+    padding-top: 0;
+    margin-top: 0px;
+}
+
+#work .addon span{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #2ecc71;
+    font-size: 13px;
+}
+
+#work .addon p{
+    border-top: 1px solid #e1e1e1 ;
+    font-size: 13px;
+    line-height: 2em;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#work .addedit{margin-top: 60px;}
+#work .container{border-top: 1px solid #e1e1e1 ;}
+
+/*Extra Setup for education*/
+@media only screen and (max-width: 768px){
+   #work .fixMe{
+        text-align: center;
+    }
+   #work .fixMe p{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+}
+/* --------------- End Education & Work --------------- */
+
+/* --------------- Start Testmonials --------------- */
+#testmonials{
+    background-color: #f2f2f1;
+    text-align: center; 
+}
+
+#testmonials p{
+    font-size: 18px;
+    font-style: italic;
+    margin: 80px 0 30px 0;
+    line-height: 2em;
+}
+#testmonials span{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#testmonials .slider div{
+    padding-top: 0 !important;
+    padding-bottom: 80px;
+}
+#testmonials .bx-wrapper{
+    height: auto;
+}
+#testmonials .bx-wrapper .bx-pager.bx-default-pager{
+    padding-bottom: 50px;
+}
+#testmonials .bx-wrapper .bx-pager.bx-default-pager a {
+    background: none;
+    border: 2px solid #2ecc71;
+    margin-bottom: 50px;
+}
+#testmonials .bx-wrapper .bx-pager.bx-default-pager a:hover, #testmonials .bx-wrapper .bx-pager.bx-default-pager a.active, #testmonials .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background:#2ecc71;
+}
+/* --------------- End testmonials --------------- */
+
+/* --------------- Start portfolio --------------- */
+#portfolio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#portfolio h2{
+    margin: 100px 0 30px 0;
+    font-weight: bold;
+}
+#portfolio p{
+    font-size: 13px;
+    margin: 0 0 50px 0;
+    line-height: 2em;
+}
+#portfolio h4{
+    margin: 0;
+    color: #fff;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+#portfolio .fuck{background: #252e30;}
+#portfolio .catsDiv{
+    background: #252e30;
+    margin: 0;
+    text-align: left;
+    padding: 40px;
+}
+#portfolio .catsDiv ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+#portfolio .catsDiv ul li{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.8em;
+    cursor: pointer;
+}
+#portfolio .catsDiv ul li.active,
+#portfolio .catsDiv ul li:hover{color: #fff;}
+#portfolio img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#portfolio .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 4%;
+    width: 92.2%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(46,204,113,0.5);
+    z-index: 2;
+    visibility:hidden;
+    transition: .5s ease;
+    height:0;
+}
+#portfolio a {
+    color: #fff;
+    font-size: 32px;
+    text-decoration: none;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#portfolio .row>div:hover .overlay{
+   visibility:visible;
+    height:100%;
+}
+.fixPro{margin: 15px 0;}
+/* portfolio navlist fix*/
+@media only screen and (max-width: 768px) and (min-width:530px){
+    #portfolio .catsDiv ul{
+        overflow: hidden;
+        height: 100%;
+    }
+    #portfolio .catsDiv ul li{
+        display: inline-block;
+        padding: 0 10px;
+        border-right: 1px solid #555;
+        font-size: 14px;
+        float: left;
+        line-height: 1;
+    }
+    #portfolio .catsDiv ul li:first-of-type{
+        padding-left: 0;
+    }
+    #portfolio .catsDiv ul li:last-of-type{
+        border-right: 0;
+    }
+}
+@media only screen and (max-width:530px){
+    #portfolio .catsDiv{padding: 20px 40px 10px;}
+    #portfolio .catsDiv ul{
+        overflow: hidden;
+        height: 100%;
+    }
+    #portfolio .catsDiv ul li{
+        display:block;
+        border-bottom: 1px solid #555;
+        font-size: 14px;
+        padding: 10px 0;
+        line-height: 1;
+    }
+    #portfolio .catsDiv ul li:first-of-type{
+        padding-top: 0;
+    }
+    #portfolio .catsDiv ul li:last-of-type{
+        border-bottom: 0;
+    }
+}
+/* --------------- end portfolio --------------- */
+
+/* --------------- Start contact --------------- */
+#contact{
+    background-color: #252e30;
+}
+#contact h2{
+    margin: 100px 0 30px 0;
+    font-weight: bold;
+    color: #fff;
+}
+#contact p{
+    font-size: 14px;
+    line-height: 2em;
+    padding-right: 30px;
+    margin-bottom: 30px;   
+}
+#contact .con{
+    font-size: 14px;
+    line-height: 2em;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0;   
+}
+#contact .con a{
+    padding-left: 30px;
+    text-transform:none;
+}
+#contact .con a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#contact form{
+    padding-top: 145px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+#contact form .form-group{padding-bottom: 20px;}
+#contact form input{
+    color: #fff;
+    background-color: #4b5456;
+    border-color: #4b5456;
+    border-radius: 0;
+    padding: 20px 10px 20px 15px;
+}
+#contact form textarea{
+    color: #fff;
+    background-color: #4b5456;
+    border-color: #4b5456;
+    border-radius: 0;
+    padding: 20px 10px 20px 15px;
+    height: 200px;
+}
+#contact form button{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #191f21;
+    border: 2px solid  #191f21;
+    border-radius: 0;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+#contact form button:hover{
+    color: #191f21;
+    background-color: #fff; 
+}
+/* --------------- end contact --------------- */
+/* --------------- Start footer --------------- */
+footer{
+    text-align: center;
+    background: #191f21;
+    color: #4b5456;
+    padding: 50px 0 20px;
+}
+footer p{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+footer .fa {
+    color: #191f21;
+    font-size: 24px;
+    background: #4b5456;
+    line-height: 38px;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #191f21;
+    border-radius: 50%
+}
+footer .fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+footer .fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+footer .fa-pinterest-p:hover {
+  background: #cb2027;
+  color: white;
+}
+footer .fa-google-plus:hover {
+  background: #dd4b39;
+  color: white;
+}
+footer .fa-dribbble:hover {
+  background: #ea4c89;
+  color: white;
+}
+footer .fa-linkedin:hover {
+  background: #0274b3;
+  color: white;
+}
+
+/* --------------- end footer --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
