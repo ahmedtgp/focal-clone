@@ -1,7 +1,8 @@
 # Focal Resume 
 
 This project was create using html, css, boostrap, jquery.
-using media-query to fix some mobile issues.
+
+used media-query to fix some mobile issues.
 you can check it [here](https://ahmedtgp.github.io/focal-clone/)
 
 ## Technology Used
